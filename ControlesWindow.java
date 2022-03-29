@@ -5,7 +5,8 @@
 package com.mycompany.linea;
 
 /**
- *
+ *Setear controles
+ * arriba, abajo, derecha, izquierda
  * @author he_fa
  */
 import java.awt.event.KeyListener;
@@ -75,18 +76,15 @@ public class ControlesWindow extends JFrame implements KeyListener{
         controles[2]= 'a'; 
         controles[3]= 'd';
         
+        this.setSize(400,400);
+        
     }     
     
     public static void main(String... args){
      ControlesWindow ventana = new ControlesWindow();
-     // tutorial para settear los controles
-     // setear arriba
-     // setear abajo
-     // setear derecha
-     // setear izquierda
+     
      System.out.println("Controles end");
         
     }
-    
-   
+       
 }
